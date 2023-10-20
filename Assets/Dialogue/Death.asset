@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4107719635845676052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: df39833b-2ed7-44fa-be29-78d9f6776d96
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u751F\u304D\u8FD4\u3089\u305B\u3066\u3042\u3052\u308B\u304B\u3089\u3001\u6B21\u306F\u3084\u3089\u308C\u306A\u3044\u3088\u3046\u306B\u306D\uFF01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-2311313896042938672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 17421cd8-b9ab-4790-8ed4-18f49c41eabd
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3042\u30FC\u2026\u2026\u3084\u3089\u308C\u3061\u3083\u3063\u305F\u304B\u3002\u4ED5\u65B9\u306A\u3044\u3002"
+  children:
+  - df39833b-2ed7-44fa-be29-78d9f6776d96
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5191a6b7bc7d64e46929cb38fad3e907, type: 3}
+  m_Name: Death
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2311313896042938672}
+  - {fileID: -4107719635845676052}
+  IsCharByChar: 1
+  IsAutoPlay: 1

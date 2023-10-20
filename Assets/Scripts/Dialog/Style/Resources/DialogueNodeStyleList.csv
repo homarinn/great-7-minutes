@@ -1,0 +1,2 @@
+speakerID,speakerName,backgroundPath,textColor,padding,border
+1,Player,node1,"255,255,255","20,20,20,20","12,12,12,12"

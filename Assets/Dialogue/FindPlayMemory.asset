@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8194275048048338532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 63881bc4-7535-48ff-87bb-b2f6e2ffafbd
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u304A\u3063\u3068\u3001\u3082\u30461\u3064\u601D\u3044\u51FA\u304C\u3042\u308B\u306D\u3002"
+  children:
+  - 2528ed0c-7f39-4b18-9df1-91270d182d4e
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-4459500918015620300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 2528ed0c-7f39-4b18-9df1-91270d182d4e
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u8FD1\u3065\u3044\u3066\u307F\u3088\u3046\u3002"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5191a6b7bc7d64e46929cb38fad3e907, type: 3}
+  m_Name: FindPlayMemory
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8194275048048338532}
+  - {fileID: -4459500918015620300}
+  IsCharByChar: 1
+  IsAutoPlay: 1

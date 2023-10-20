@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8700017843071589394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 07854d87-c55f-4562-ac5d-4e9627633d2d
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u2026\u2026\u3046\u3093\u3002\u3046\u3093\u3002\u305D\u3046\u3060\u3063\u305F\u3093\u3060\u3002"
+  children:
+  - a3ece179-5ee6-451c-8fc0-386f94c5bbb2
+  rect:
+    serializedVersion: 2
+    x: 800
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-7085719874778713760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 4d687ac8-571d-455a-9f23-5c82199e4d7d
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u5927\u4E08\u592B\u3002\u5C11\u306A\u304F\u3068\u3082\u795E\u69D8\u306F\u795D\u798F\u3057\u3066\u3044\u308B\u3088\u3002"
+  children:
+  - d8ac4efa-7e99-4cfa-876a-4fcf8bd668fe
+  rect:
+    serializedVersion: 2
+    x: 1200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-5941418589277099061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 60096402-b4c9-4e15-b0fd-31a59a1f2c91
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u307F\u3093\u306A\u795D\u3063\u3066\u304F\u308C\u305F\u304B\u3044\uFF1F"
+  children:
+  - 07854d87-c55f-4562-ac5d-4e9627633d2d
+  rect:
+    serializedVersion: 2
+    x: 600
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-2460585105821072056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: cf4d027f-c094-4e91-96e8-8bf1e72e7b25
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u308F\u3041\u3001\u5E78\u305B\u305D\u3046\u306A\u7B11\u9854\u3058\u3083\u306A\u3044\u304B\u3002"
+  children:
+  - a57e191b-f314-4b46-ab02-28880a530b75
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5191a6b7bc7d64e46929cb38fad3e907, type: 3}
+  m_Name: MarriageMemory
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -2460585105821072056}
+  - {fileID: 1187787393082486140}
+  - {fileID: 5218018624183759538}
+  - {fileID: -5941418589277099061}
+  - {fileID: -8700017843071589394}
+  - {fileID: 3006363117660467770}
+  - {fileID: -7085719874778713760}
+  - {fileID: 7107364083074074225}
+  IsCharByChar: 1
+  IsAutoPlay: 1
+--- !u!114 &1187787393082486140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: a57e191b-f314-4b46-ab02-28880a530b75
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u7D50\u5A5A\u5F0F\u306E\u69D8\u5B50\u3060\u306D\u3002"
+  children:
+  - 960ed567-60c3-42db-bf18-039cda0f8f5a
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &3006363117660467770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: a3ece179-5ee6-451c-8fc0-386f94c5bbb2
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3054\u3081\u3093\u306D\u3001\u80FD\u5929\u6C17\u306A\u8CEA\u554F\u3092\u3057\u3066\u3002"
+  children:
+  - 4d687ac8-571d-455a-9f23-5c82199e4d7d
+  rect:
+    serializedVersion: 2
+    x: 1000
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &5218018624183759538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 960ed567-60c3-42db-bf18-039cda0f8f5a
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u6700\u8FD1\u306F\u5F0F\u3092\u6319\u3052\u306A\u3044\u4EBA\u3082\u5897\u3048\u3066\u3044\u308B\u307F\u305F\u3044\u3060\u3051\u3069\u3001\u3084\u3063\u3071\u308A\u3044\u3044\u3082\u306E\u3060\u306D\u3002"
+  children:
+  - 60096402-b4c9-4e15-b0fd-31a59a1f2c91
+  rect:
+    serializedVersion: 2
+    x: 400
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &7107364083074074225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: d8ac4efa-7e99-4cfa-876a-4fcf8bd668fe
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u4ECA\u3001\u541B\u306E\u3059\u3050\u5074\u3067\u306D\u3002\u305D\u306E\u8A3C\u62E0\u306B\u300CB\u300D\u3092\u62BC\u3057\u3066\u3054\u3089\u3093\u3002"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1400
+    y: 0
+    width: 200
+    height: 200

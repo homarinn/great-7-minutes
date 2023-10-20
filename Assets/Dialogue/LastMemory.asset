@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6647502561316334745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: fd56c349-8611-4376-80d8-cd15b9ebc99c
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3060\u3063\u305F\u3089\u4ECA\u56DE\u3060\u3063\u3066\u304D\u3063\u3068\u6551\u3048\u308B\u3055\u3002\u305D\u3046\u3060\u308D\u3046\uFF1F"
+  children:
+  - cd068f51-0133-41ce-9dc9-9195404b2d24
+  rect:
+    serializedVersion: 2
+    x: 1200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-1921526455058389541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 7ff54753-49d8-4502-af13-433b729a9f7a
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u8F9B\u3044\u6642\u671F\u304C\u3042\u3063\u305F\u304B\u3089\u3053\u305D\u3001\u541B\u3068\u306E\u51FA\u4F1A\u3044\u304C\u3053\u3093\u306A\u306B\u3082\u5149\u306B\u6E80\u3061\u3066\u308B\u3093\u3060\u3002"
+  children:
+  - 2f72f130-f800-4f5e-8701-49b93af269a1
+  rect:
+    serializedVersion: 2
+    x: 600
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-974679902750929512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 5fe0eb61-2b73-4a87-906c-09826b51af6b
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u305D\u3046\u304B\u3001\u305D\u3046\u3044\u3046\u3053\u3068\u3060\u3063\u305F\u3093\u3060\u3002"
+  children:
+  - d335b56d-a7e1-4e41-8853-d62933da3d63
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &-150944937918914220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: d335b56d-a7e1-4e41-8853-d62933da3d63
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3053\u308C\u306F\u5F7C\u5973\u3068\u541B\u3068\u306E\u2026\u2026\u30D2\u30FC\u30ED\u30FC\u3068\u306E\u51FA\u4F1A\u3044\u306E\u601D\u3044\u51FA\u3060\u3063\u305F\u3093\u3060\u3002"
+  children:
+  - f7eb097e-999b-4378-b37b-09e900d4d1db
+  rect:
+    serializedVersion: 2
+    x: 200
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5191a6b7bc7d64e46929cb38fad3e907, type: 3}
+  m_Name: LastMemory
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -974679902750929512}
+  - {fileID: -150944937918914220}
+  - {fileID: 5883358578328192145}
+  - {fileID: -1921526455058389541}
+  - {fileID: 3985420917721503925}
+  - {fileID: 564492720037526003}
+  - {fileID: -6647502561316334745}
+  - {fileID: 4735961492261362202}
+  - {fileID: 1636380284263535450}
+  - {fileID: 1406764574098648668}
+  IsCharByChar: 1
+  IsAutoPlay: 1
+--- !u!114 &564492720037526003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 4acdf9ed-9752-4f24-8905-9f0401185a1d
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3060\u3063\u3066\u541B\u306F\u4E00\u5EA6\u3001\u5F7C\u5973\u3092\u6551\u3063\u3066\u3044\u308B\u3002"
+  children:
+  - fd56c349-8611-4376-80d8-cd15b9ebc99c
+  rect:
+    serializedVersion: 2
+    x: 1000
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &1406764574098648668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: ebeda1b6-352a-4b09-80b0-23fc9ebc92f7
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3055\u3042\u53CD\u6483\u3060\u3002\u300CH\u300D\u3067\u65B0\u3057\u3044\u529B\u3092\u4F7F\u3048\u308B\u3088\u3046\u306B\u3057\u305F\u3088\u3002\u3084\u3063\u3066\u3084\u308C\uFF01\uFF01\uFF01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1800
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &1636380284263535450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 8ed4f6e0-7da4-42fc-8cf8-8cf7c1e38d4d
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u541B\u306E\u5DEE\u3057\u4F38\u3079\u305F\u6E29\u304B\u3044\u624B\u306B\u3001\u52C7\u6C17\u3042\u308B\u624B\u306B\u3001\u529B\u3092\u3001\u795E\u306E\u5927\u3044\u306A\u308B\u795D\u798F\u3092\u3002"
+  children:
+  - ebeda1b6-352a-4b09-80b0-23fc9ebc92f7
+  rect:
+    serializedVersion: 2
+    x: 1600
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &3985420917721503925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: 2f72f130-f800-4f5e-8701-49b93af269a1
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u306F\u306F\u306F\uFF01\u306A\u30FC\u3093\u3060\u3001\u305D\u308C\u306A\u3089\u5927\u4E08\u592B\u3060\u3002"
+  children:
+  - 4acdf9ed-9752-4f24-8905-9f0401185a1d
+  rect:
+    serializedVersion: 2
+    x: 800
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &4735961492261362202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: cd068f51-0133-41ce-9dc9-9195404b2d24
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3048\u3001\u606F\u5B50\u306F\u6551\u3048\u306A\u304B\u3063\u305F\u3063\u3066\uFF1F\u3000\u4F55\u8A00\u3063\u3066\u308B\u3093\u3060\u3001\u304F\u3058\u3051\u3066\u308B\u6687\u306A\u3093\u3066\u306A\u3044\u3088\uFF01"
+  children:
+  - 8ed4f6e0-7da4-42fc-8cf8-8cf7c1e38d4d
+  rect:
+    serializedVersion: 2
+    x: 1400
+    y: 0
+    width: 200
+    height: 200
+--- !u!114 &5883358578328192145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de00453d042f5469aa4022dbad54c591, type: 3}
+  m_Name: f7eb097e-999b-4378-b37b-09e900d4d1db
+  m_EditorClassIdentifier: 
+  speakerID: 0
+  speakerName: 
+  text: "\u3060\u304B\u3089\u3001\u3042\u306E\u5ACC\u306A\u601D\u3044\u51FA\u3068\u8868\u88CF\u4E00\u4F53\u3060\u3063\u305F\u3093\u3060\u306D\u3002"
+  children:
+  - 7ff54753-49d8-4502-af13-433b729a9f7a
+  rect:
+    serializedVersion: 2
+    x: 400
+    y: 0
+    width: 200
+    height: 200
